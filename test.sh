@@ -1,7 +1,5 @@
 #!/bin/bash
 
-npm i
-
 nohup npm run start &
 serverPID=$!
 
