@@ -1,4 +1,5 @@
 {
+  "include": ["src/**/*"],
   "compilerOptions": {
     "rootDirs": ["src"],
     "outDir": "dist",
@@ -7,7 +8,7 @@
     "module": "esnext",
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["node", "jest"],
     "esModuleInterop": true
   }
 }
