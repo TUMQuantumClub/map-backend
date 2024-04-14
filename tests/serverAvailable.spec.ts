@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import fetch from "node-fetch";
 
 test("can reach server", async () => {
   const response = await fetch("http://localhost:4000");
