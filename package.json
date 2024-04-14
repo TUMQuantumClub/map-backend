@@ -4,6 +4,7 @@
   "description": "Backend for the map project",
   "main": "index.js",
   "scripts": {
+    "build": "npm run compile",
     "compile": "tsc",
     "start": "npm run compile && node ./dist/index.js",
     "run-test": "jest",
