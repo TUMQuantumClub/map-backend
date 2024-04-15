@@ -1,0 +1,3 @@
+[submodule "map-docs"]
+	path = map-docs
+	url = git@github.com:TUMQuantumClub/map-docs.git
